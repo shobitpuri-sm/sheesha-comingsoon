@@ -3,7 +3,7 @@ import './App.css';
 import Logo from './assets/SVG/Logo'
 
 function App() {
-  return (<>
+  return (<div style={{width: 'vw', height: 'vh'}}>
     
       <div className="uppertriangle">
       
@@ -33,7 +33,7 @@ function App() {
           Follow Us On
         </div>
         <div>
-          <a className="link1" href="www.google.com">
+          <a className="link1" href="https://www.medium.com">
             <div className="mid">
               <svg className="" id="Medium_Before" data-name="Medium Before" xmlns="http://www.w3.org/2000/svg" width="35.842" height="28.362" viewBox="0 0 35.842 28.362">
                 <path id="medium" d="M35.525,55.225a1.05,1.05,0,0,0-.733-1.8H24.3a1.05,1.05,0,0,0-1.05,1.05v5.051l-3.93,10.187L12.109,54.034a1.05,1.05,0,0,0-.954-.611H1.324a1.05,1.05,0,0,0-.813,1.714l4.444,5.441v13.44L.222,80.09a1.05,1.05,0,0,0,.828,1.7h9.91a1.05,1.05,0,0,0,.828-1.7L7.055,74.019V64.684L15.248,81.2a1.05,1.05,0,0,0,.94.583h.049a1.05,1.05,0,0,0,.931-.671l6.077-15.754V76.466L20.421,80.09a1.05,1.05,0,0,0,.828,1.7H34.36a1.05,1.05,0,0,0,.828-1.7l-2.825-3.623V58.307Z" transform="translate(0 -53.423)" fill="#98989a" />
@@ -41,14 +41,14 @@ function App() {
               </svg>
             </div>
           </a>
-          <a className="link2">
+          <a className="link2" href="https://www.telegram.com">
             <div className="mid">
               <svg id="Telegram_Before" data-name="Telegram Before" xmlns="http://www.w3.org/2000/svg" width="33.821" height="28.363" viewBox="0 0 33.821 28.363">
                 <path id="Icon_awesome-telegram-plane" data-name="Icon awesome-telegram-plane" d="M33.725,7.11l-5.1,24.069c-.385,1.7-1.389,2.122-2.816,1.321l-7.776-5.73-3.752,3.609a1.953,1.953,0,0,1-1.563.763l.559-7.92L27.685,10.2c.627-.559-.136-.868-.974-.31L8.894,21.108l-7.671-2.4c-1.669-.521-1.7-1.669.347-2.469l30-11.559c1.389-.521,2.6.31,2.152,2.431Z" transform="translate(-0.001 -4.528)" fill="#98989a"/>
               </svg>
             </div>
           </a>
-          <a className="link3">
+          <a className="link3" href="https://www.twitter.com"> 
             <div className="mid">
               <svg id="Twitter_Before" data-name="Twitter Before" xmlns="http://www.w3.org/2000/svg" width="34.922" height="28.363" viewBox="0 0 34.922 28.363">
                 <path id="Icon_awesome-twitter" data-name="Icon awesome-twitter" d="M31.333,10.449c.022.31.022.62.022.931,0,9.462-7.2,20.364-20.364,20.364A20.226,20.226,0,0,1,0,28.531a14.806,14.806,0,0,0,1.728.089,14.334,14.334,0,0,0,8.886-3.058A7.17,7.17,0,0,1,3.922,20.6a9.026,9.026,0,0,0,1.352.111,7.57,7.57,0,0,0,1.883-.244,7.158,7.158,0,0,1-5.739-7.024v-.089a7.208,7.208,0,0,0,3.235.908A7.168,7.168,0,0,1,2.437,4.688,20.344,20.344,0,0,0,17.2,12.178a8.08,8.08,0,0,1-.177-1.64A7.164,7.164,0,0,1,29.4,5.641a14.092,14.092,0,0,0,4.543-1.728A7.138,7.138,0,0,1,30.8,7.857a14.348,14.348,0,0,0,4.122-1.108,15.386,15.386,0,0,1-3.59,3.7Z" transform="translate(0 -3.381)" fill="#98989a"/>
@@ -56,7 +56,7 @@ function App() {
 
             </div>
           </a>
-          <a className="link4">
+          <a className="link4" href="https://www.github.com">
             <div className="mid">
               <svg id="Gitbook_Before" data-name="Gitbook Before" xmlns="http://www.w3.org/2000/svg" width="39.131" height="28.215" viewBox="0 0 39.131 28.215">
                 <g id="Group_111" data-name="Group 111">
@@ -74,7 +74,7 @@ function App() {
         
       </div>
   
-    </>
+    </div>
   );
 }
 
